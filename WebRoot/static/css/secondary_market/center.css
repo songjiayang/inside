@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+.center{
+	width:1024px;
+	min-height:400px;
+	background:none;
+	margin:0px auto;
+}
+
+.center_personal{
+	width:720px;
+	min-height:550px;
+	float:left;
+	background:#FFF;
+	border:#ccc 1px solid;
+}
+
+
+.control_border{
+	width:1000px;
+	height:160px;
+	margin:0px auto;
+	margin-top:50px;
+}
+
+.control_border_main{
+	width:800px;
+	height:130px;
+	margin:0px auto;
+	background:none;
+}
+.control_left{
+	width:152px;
+	height:128px;
+	float:left;
+	text-align:center;
+}
+.control_left img{
+	max-width:152px;
+	height:128px;
+}
+
+.control_right{
+	width:608px;
+	height:130px;
+	float:left;
+	margin-left:40px;
+}
+
+.control_top{
+	width:100%;
+	height:48px;
+	float:left;
+	line-height:50px;
+	border-bottom:#CCC 2px dashed;
+	color:#666;
+	font-size:18px;
+}
+
+.control_top1{
+	width:100%;
+	height:48px;
+	float:left;
+	line-height:50px;
+	border-bottom:#CCC 2px dashed;
+	color:#666;
+	font-size:18px;
+}
+.control_low{
+	width:100%;
+	height:70px;
+	float:left;
+	margin-top:10px;
+}
+
+.control_low_left{
+	width:48%;
+	height:70px;
+	float:left;
+}
+
+.control_low_right{
+	width:32%;
+	height:70px;
+	float:left;
+}
+
+.control_line{
+	width:100%;
+	height:30px;
+	line-height:30px;
+}
+
+
+.center_text{
+	width:800px;
+	height:auto;
+	margin:30px auto;
+	font-size:14px;
+	line-height:30px;
+	background:#FFF;
+}
+.center_text_bottom{
+	width:1000px;
+	height:20px;
+	float:left;
+	background:url(../../images/secondary_market/element/paper3.png);
+}
+.center_text_top{
+	width:1000px;
+	height:16px;
+	font-size:14px;
+	line-height:30px;
+	text-indent:2em;
+	background:url(../../images/secondary_market/element/paper2.png);
+}
+.center_link{
+	color:#069;
+	text-decoration:none;
+	font-size:12px;
+	line-height:30px;
+}
+.center_link:hover{
+	text-decoration:none;
+	color:#936;
+}
+
+
+.center_link1{
+	color:#069;
+	text-decoration:none;
+	font-size:14px;
+}
+.center_link1:hover{
+	text-decoration:underline;
+	color:#936;
+}
+
+.center_text_border{
+	width:1000px;
+	height:auto;
+	background:none;
+	margin:0px auto;
+	margin-top:50px;
+}
+.center_text_main{
+	width:1000px;
+	height:auto;
+	background:#FFF;
+	float:left;
+}
+
+.center_seller{
+	width:16px; 
+	height:20px;
+	float:left;
+	 margin-top:8px;
+	 background:url(../../images/secondary_market/element/avatar.png);
+}
+.center_seller:hover{
+	width:16px; 
+	height:20px;
+	float:left;
+	 margin-top:8px;
+	 background:url(../../images/secondary_market/element/avatar2.png);
+}
+
+.return{
+	height:80ox;
+	height:41px;
+	margin-top:20px;
+	background:url(../../images/secondary_market/element/return1.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.return:hover{
+	background:url(../../images/secondary_market/element/return2.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}

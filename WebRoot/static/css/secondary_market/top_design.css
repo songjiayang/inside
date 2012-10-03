@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+.design{
+	width:100%;
+	height:100px;
+	border-bottom:#999 1px solid;
+	float:left;
+	background:url(../../images/secondary_market/element/design.jpg);
+}
+
+
+.design_center{
+	width:1024px;
+	margin:0px auto;
+	height:80px;
+	margin-top:20px;
+}
+
+.design_left{
+	width:200px;
+	height:80px;
+	float:left;
+}
+
+.design_right{
+	width:600px;
+	height:40px;
+	float:right;
+	margin-top:30px;
+}
+
+
+.design_cloud{
+	width:60px;
+	height:40px;
+	float:right;
+	margin-left:20px;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="inside"
+  id="myeclipse.1339083583888"
+  context-root="/secondhand"
+  j2ee-spec="6.0"
+  archive="inside.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

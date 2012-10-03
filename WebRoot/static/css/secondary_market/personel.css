@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.left{
+	width:200px;
+	position:relative;
+	float:left;
+	min-height:500px;
+	height:100%;
+	background:#09F;
+	margin-top:30px;
+}
+
+#menu{
+	width:302px;
+	min-height:400px;
+	display:block;
+	position:relative;
+	background:#fff;
+	float:left;
+}
+
+
+.tittle{
+	width:70px;
+	line-height:40px;
+	float:left;
+	font-size:14px;
+	color:#069;
+	text-align:right;
+	
+}
+.input{
+	width:300px;
+	height:40px;
+	float:left;
+	line-height:40px;
+	font-family:"微软雅黑";
+	font-size:16px;
+	color:#888;
+	margin-left:5px;
+}
+
+.input_border{
+	width:600px;
+	height:40px;
+	float:left;
+}
+
+.registration{
+	width:102px;
+	height:42px;
+	font-family:"微软雅黑";
+	font-size:14px;
+	border:#FFF 1px solid;
+	margin-left:100px;
+	float:left;
+	color:#FFF;
+	background:url(../../images/login/login_bg1.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+
+.registration:hover{
+background:url(../../images/login/login_bg2.png);
+}
+
+
+.history{
+	width:100%;
+	float:left;
+	height:40px;
+	margin-top:10px;
+	border:#124364 2px solid;
+}
+
+
+.history_left{
+	width:400px;
+	height:40px;
+	float:left;
+	font-family:"微软雅黑";
+	font-size:14px;
+	text-indent:1em;
+	line-height:40px;
+	text-align:left;
+		border-right:#124364 2px solid;
+}
+
+
+.history_left1{
+	width:400px;
+	height:40px;
+	float:left;
+	margin-left:600px;
+	font-family:"微软雅黑";
+	font-size:16px;
+	color:#888;
+	text-indent:1em;
+	line-height:40px;
+	text-align:left;
+}
+
+.history_right{
+	width:260px;
+	height:40px;
+	float:left;
+	text-align:center;
+}
+
+.history_time{
+	width:100px;
+	height:40px;
+	float:left;
+	font-family:"微软雅黑";
+	font-size:14px;
+	text-indent:1em;
+	line-height:40px;
+	border-right:#124364 2px solid;
+}
+
+
+.button_1{
+	width:200px;
+	height:40px;
+	background:url(../../images/secondary_market/element/sure.jpg);
+	background-repeat:no-repeat;
+	text-indent:4em;
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#069;
+	line-height:40px;
+	float:left;
+	
+}
+
+.button_1:hover{
+	background:url(../../images/secondary_market/element/sure2.jpg);
+	background-repeat:no-repeat;
+	color:#63C;
+	cursor:pointer;
+}
+
+.condition{
+	width:40px;
+	height:40px;
+	float:left;
+}
+
+.delet{
+	margin-left:10px;
+}
+
+.fun_a{
+	color:#069;
+	text-decoration:none;
+	line-height:40px;
+}
+.fun_a:hover{
+	text-decoration:underline;
+}
+
+.fun_a:active{
+	color:#F00;
+}
+
+.errorMsg{
+	font-family:"微软雅黑";
+	color:#F00;
+}
+
+.errorMsg1{
+	font-family:"微软雅黑";
+	color:#F00;
+	margin-left:100px;
+}
+
+.errorMsg2{
+	font-family:"微软雅黑";
+	color:#F00;
+	
+}
+.goods_errorMsg{
+	text-align:center;
+	font-family:"微软雅黑";
+	color:#F00;
+}

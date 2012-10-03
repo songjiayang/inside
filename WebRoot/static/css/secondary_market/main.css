@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	font-family:"微软雅黑";
+	font-size:12px;
+	margin:0px;
+	border-spacing:0;
+	background:url(../../images/secondary_market/element/dian.jpg);
+	
+}
+
+
+.content{
+	width:100%;
+	min-height:500px;
+	margin:0px auto;
+	float:left;
+	background:url(../../images/secondary_market/element/dian.jpg);
+}
+.content2{
+	width:100%;
+	min-height:500px;
+	margin:0px auto;
+}
+
+#topcontrol{
+	width:31px;
+	height:31px;
+	position:fixed;
+	bottom:30px;
+	right:100px;
+}
+

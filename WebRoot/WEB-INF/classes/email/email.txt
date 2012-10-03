@@ -1,0 +1,16 @@
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body>
+<h1>尊敬的{0}:</h1>
+<p>&nbsp&nbsp您好！恭喜您注册成为Inside用户</p>
+<p>&nbsp&nbsp这是一封注册认证邮件，请点击以下链接确认：</p>
+&nbsp&nbsp<a href=http://127.0.0.1/user/reg/{1}>http://127.0.0.1/user/reg/{2}</a>
+<p>&nbsp&nbsp如果链接不能点击，请复制地址到浏览器，然后直接打开</p>
+<p>&nbsp&nbsp上述链接48小时内有效。如果激活链接失效，请您登录网站 http://www.superpanda.cn重新申请认证。</p>
+<p>&nbsp&nbsp感谢您注册Inside！</p>
+<div align='right'>Inside</div>
+<div align='right'>{3}</div>
+</body>
+</html>                                                                   

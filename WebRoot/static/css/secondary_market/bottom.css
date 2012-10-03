@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bottom{
+	width:100%;
+	height:90px;
+	float:left;
+
+}
+
+.bottom_line{
+	width:100%;
+	height:30px;
+	float:left;
+	text-align:center;
+	margin-top:50px;
+	line-height:30px;
+}

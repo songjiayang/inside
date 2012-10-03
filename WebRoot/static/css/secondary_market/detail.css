@@ -1,0 +1,39 @@
+body, div, span, object, frame, h1, h2, h3, h4, h5, h6, p, blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, table, tbody, tr, th, td, input, menu {
+	margin:0;padding:0;
+}
+body {font:12px Tahoma,Verdana,STHeiTi,simsun,sans-serif;}
+a {color:#005EAC;text-decoration:none;}
+a img, :link img, :visited img {border:0 none;}
+ul{list-style: none outside none;}
+.button_row{height:22px;min-width:130px;overflow:hidden;}
+.button{cursor:pointer;}
+.button .left{width:3px;height:22px;float:left;background:url(http://s.xnimg.cn/actimg/like/img/button_left_light.gif) no-repeat left top;}
+.button .mid{height:22px;float:left;background:url(http://s.xnimg.cn/actimg/like/img/button_mid_light.gif) repeat-x left top;}
+.button .right{width:3px;height:22px;float:left;background:url(http://s.xnimg.cn/actimg/like/img/button_right_light.gif) no-repeat left top;}
+.button:hover .left, .button.hover .left{background-image:url(http://s.xnimg.cn/actimg/like/img/button_left_light_hover.gif)}
+.button:hover .mid, .button.hover .mid{background-image:url(http://s.xnimg.cn/actimg/like/img/button_mid_light_hover.gif)}
+.button:hover .right, .button.hover .right{background-image:url(http://s.xnimg.cn/actimg/like/img/button_right_light_hover.gif)}
+.icon{width:25px;height:22px;float:left;padding:0 2px;background:url(http://s.xnimg.cn/actimg/like/img/renren_double_light.gif) no-repeat center center;}
+.liked .icon:hover, .liked .icon.hover{background-image:url(http://s.xnimg.cn/actimg/like/img/unlike_light.gif);}
+.label{float:left;line-height:12px;padding:5px 0px;color:#005eac;padding-top:6px\9;_padding-top:6px;margin-right:2px;}
+.liked_label{display:none;}
+.liked .like_label{display:none;}
+.liked .liked_label{display:inline;}
+.count_label{display:none;}
+.liked .count_label{display:inline;color:#fff;margin:2px 0;padding:3px 2px;background-color:#0099CC;}
+.liked .count_label a{color:#fff;}
+.counter{margin-top:1px;}
+.counter .left{float:left;height:21px;width:8px;background:url(http://s.xnimg.cn/actimg/like/img/counter_left.gif) no-repeat left top;}
+.counter .mid{float:left;height:19px;padding:0px 3px;line-height:19px;background-color:#F2F7FC;border:1px solid #D1E3EF;border-width: 1px 0;}
+.counter .right{float:left;height:21px;width:2px;background:url(http://s.xnimg.cn/actimg/like/img/counter_right.gif) no-repeat left top;}
+.liked .counter{display:none;}
+.annotation{line-height:22px;display:none;}
+.faces{display:none;}
+.face{float:left;border:1px solid #c9c9c9;margin:5px 5px 0 0;padding:1px;position:relative;cursor:pointer;width:30px;height:30px;}
+.face a{display:block;}
+.face .name{width:52px;height:24px;background:url(http://s.xnimg.cn/actimg/like/img/tip.png) no-repeat left top;position:absolute;left:0px;top:-24px;line-height:18px;text-align:center;white-space:nowrap;overflow:hidden;display:none;}
+.face:hover .name, .face.hover .name{display:block;}
+.detail .counter{display:none;}
+.detail .count_label{display:none;}
+.detail .annotation{display:block;}
+.detail .faces{display:block;}

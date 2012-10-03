@@ -1,0 +1,16 @@
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body>
+<h1>尊敬的{0}:您好！</h1>
+<p>&nbsp&nbsp您收到这封这封电子邮件是因为您 (也可能是某人冒充您的名义) 申请了一个新的密码。假如这不是您本人所申请, 请不用理会这封电子邮件, 但是如果您持续收到这类的信件骚扰, 请您尽快联络管理员。</p>
+<p>&nbsp&nbsp要使用新的密码, 请使用以下链接启用密码：</p>
+&nbsp&nbsp<a href=http://127.0.0.1/user/passwordback/{1}>http://127.0.0.1/user/passwordback/{2}</a>
+<p>&nbsp&nbsp (如果无法点击该URL链接地址，请将它复制并粘帖到浏览器的地址输入框，然后单击回车即可。该链接使用后将立即失效。)</p>
+<p>&nbsp&nbsp注意:请您在收到邮件1个小时内使用，否则该链接将会失效。</p>
+<p>&nbsp&nbsp感谢您注册Inside！</p>
+<div align='right'>Inside</div>
+<div align='right'>{3}</div>
+</body>
+</html>                                                                   

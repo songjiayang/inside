@@ -1,0 +1,115 @@
+
+
+#display_goods {
+width:1020px;
+margin:10px auto;
+}
+
+.selecterBtns {
+float:left;
+width:1020px;
+margin-bottom:10px;
+margin-top:20px;
+}
+
+.selecterBtns a {
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+border-radius:8px;
+background:#FFF;
+color:#111;
+display:block;
+float:left;
+font-size:11px;
+line-height:28px;
+margin-right:4px;
+outline:none;
+padding:0 15px;
+text-decoration:none;
+}
+
+.selecterBtns .active,
+.selecterBtns a:hover {
+background:#111;
+color:#fff;
+}
+
+.selecterContent {
+float:left;
+width:1020px;
+clear:both;
+min-height:500px;
+}
+
+.selecterContent a {
+outline:none;
+}
+
+.selecterContent li {
+width:235px;
+height:250px;
+overflow:hidden;
+text-decoration:none;
+background:url(../../images/secondary_market/element/paper5.png);
+}
+.small {
+	color:#036;
+	width:100%;
+	height:20px;
+	line-height:25px;
+	text-decoration:none;
+	font-family:"微软雅黑";
+	font-size:14px;
+	margin-top:5px;
+}
+.small:hover {
+	text-decoration:none;
+}
+ul.nolist,
+ul.nolist li {
+display:block;
+list-style:none;
+padding:0;
+margin:0;
+}
+
+ul.nolist li {
+float:left;
+margin:10px 10px 20px 10px;
+text-align:center;
+}
+
+ul.nolist li img{
+	max-width:190px;
+	height:160px;
+	border:0;
+}
+
+ul.nolist li {
+float:left;
+margin:10px 10px 20px 10px;	
+}
+
+ul.nolist li a{
+	text-decoration:none;
+}
+
+.image{
+	width:190px;
+	height:160px;
+	margin:0px 25px;
+	margin-top:20px;
+	
+}
+
+.li_bottom{
+	width:180;
+	height:20px;
+	background-image:url(../../images/secondary_market/element/paper4.png);
+}
+.li_message{
+	width:180px;
+	height:300px;
+	margin-top:0px;
+	background:#FFF;
+}

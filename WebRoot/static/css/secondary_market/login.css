@@ -1,0 +1,57 @@
+
+.login{width:100%;font-size:14px;min-height: 350px;margin-top:10px;}
+.login label{float:left;width:140px;text-align:right;margin-right:10px;color:#676767;}
+.login-title{float:left;width:100%;border-bottom:2px solid #E2E2E2;}
+.login h3{font-size:20px;font-weight:bold;line-height:2em;padding:10px 10px 0 20px;float:left;color:#EB781F;border-bottom:2px solid #FEC669;margin-bottom:-2px;}
+.login>ul{float:left;width:645px;margin-top:40px;}
+.login li{float:left;width:615px;line-height:2em;padding:0 30px;margin-top:20px;position:relative;}
+.login input{float:left;margin-right:15px;color:#666;}
+
+.login input[type=submit],.login input[type=button]{margin-left:150px;border:none;background:url("../image/minLog.png") no-repeat 0 0; width:96px;height:35px;font-weight:bold;font-size:15px;color:#fff;float:left;}
+/*已有帐号*/
+.member{padding:10px 0 50px 50px;float:left;margin-top:40px;border-left:1px dashed #E2E2E2;width:305px;}
+.member span{float:left;width:250px;padding-bottom:20px;color:#666;font-size:12px;}
+.member a{float:left;background:url("../image/btnGray.png") no-repeat 0 0; width:79px;height:30px;line-height:30px;text-align:center;color:#666;text-decoration:none;font-size:12px;}
+
+.attention{display:none;background: url("../image/exclamation.png") no-repeat scroll 10px 10px #f6fa80;border:1px solid #E6DB55;color:#666452;border-radius:6px 6px 6px 6px;width:945px;line-height:1.5em;padding:10px 10px 10px 36px;float:left;margin:5px;position:relative;}
+
+/*完善注册信息*/
+.skip{font-size:12px;color:#0b5fd1; text-decoration:underline;margin:0 5px;}
+.complete-title,.complete-content{float:left;width:97%;padding:10px 0 ;margin:0 12px;}
+.complete-title{border-bottom:1px solid #E2E2E2;}
+.complete-content{margin-top:40px;}
+.complete-content p{color:#666;height:26px;line-height:26px;margin:4px 0 16px  150px;padding-left: 110px;}
+.sucRegist{background:url("../image/success.png") no-repeat 0 0;}
+.complete-content span{color:#FE5500;}
+p.sucBindPhone{background:#fff;padding:0 0 0 0;}
+p.sucBindPhone label{width:6em;}
+.sucBindPhone #Submit{margin:0;}
+
+
+/*餐厅页浮层登录*/
+.minLoginBg{display:none;height:100%;width:100%;background:#c1c1c1;position:absolute;left:0;top:0;z-index:1000000;opacity:0.5;filter:Alpha(opacity=50);}
+.minLogReg{display:none;width:524px;height:auto;border:5px solid #ccc;background:#fff;position: fixed;left: 50%;top: 40%;margin: -166px 0 0 -206px;padding-bottom:40px;z-index: 10000000;}
+.tabHd{height:49px;background:#fafafa;position:relative;border-bottom:1px solid #ddd;/*#ddd*/}
+.tabHd ul{padding-left:30px;float:left;text-align:center;width:520px;}
+.tabHd ul li{float:left;width:76px;height:36px;line-height:36px;margin:12px 3px 0 0;color:#f0693e;font-weight:bold;font-size:16px;}
+.tabHd ul li:hover{cursor:pointer;}
+.tabHd ul li.tabSelect{border:1px solid #ddd;border-radius:3px 3px 0px 0px;border-bottom:1px solid #fff;background:#fff;}
+.tabHd a.close{position:absolute;top:18px;right:18px;color:#999;}
+.minBd{margin:0 auto;margin-top:22px;/*display:none;*/}
+.minRegist{display:none;}
+.field{width:524px;margin:20px 0 0 0;float:left;}
+.field label{display:block;float:left;width:100px;height:27px;line-height:27px;text-align:right;margin:0 12px 0 0;color:#666;}
+.field input{width:230px;height:27px;padding:0;float:left;margin-right:15px;}
+.remLog,.minBd .submit,.othLogin{margin-top:20px;padding:0 0 0 110px;width:100%;float:left;}
+.submit button{border:none;background:url("../image/minLog.png") no-repeat 0 0; width:97px;height:35px;font-weight:bold;font-size:15px;color:#fff;float:left;}
+.othLogin p,.remLog label{color:#9a9a9a;font-size: 13px;}
+.othLogin a{border:1px solid #ddd;border-radius:2px 2px 2px 2px;width:76px;height:24px;display:block;float:left;margin:5px 12px 0 0;}
+/*错误提示*/
+.logTips{display:block;border:1px solid #eedb7c;height:27px;line-height:27px;float:left;color:#fd7301;background:url("../image/tipBg.gif") no-repeat 0 0 #fffeec;padding:0 10px 0 27px;font-size:13px;}
+/*focus提示*/
+.focusTips{display:block;color:#599934;height:27px;line-height:27px;float:left;font-size:13px;}
+.login .focusTips{width:183px;}
+.submit .logTips{margin:2px 0 0 9px;width:110px;}
+.focusTips img{margin-top:6px;}
+
+.minLogin{display:block;}
